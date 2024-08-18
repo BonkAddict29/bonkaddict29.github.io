@@ -48,13 +48,13 @@ a {
 #header {
 	background-color: #eee;
 	clear: both;
-	color: #555;
+	color: #0003ad;
 	font-size: 1.78em;
 	padding: 0.7ex 0.7ex 0.7ex 0.7em;
 }
 
 #headerLink {
-	color: #17a;
+	color: rgb(40, 130, 175);
 	margin-left: 5px;
 }
 
