@@ -57,10 +57,13 @@
                 <p>
                     This software asks for a string of bytes and which bits do you wan't to flip.<br>
                     After that it shortens each byte from 8 to 7 bits shaving off the first 0 in each byte.<br>
-                    Example: 
+                    Example:<br>
                     <span style="color: red;">0</span>1111000 <span style="color: red;">0</span>0110011 --> 1111000 0110011<br>
-                    Next it flips the bits which you specified to flip (Flipping the 8th bit doesn't change anything since it gets removed, but it can confuse people who don't know how it works).<br>
-                    Example: flip bits 72 0<span style="color: orange;">1</span>1001<span style="color:green;">1</span>0 0<span style="color: orange;">1</span>1101<span style="color:green;">0</span>1 --><span style="color:yellow;">0</span>1001<span style="color:green;">0</span>0 <span style="color:yellow;">0</span>1101<span style="color:green;">1</span>1
+                    Next it flips the bits which you specified to flip (Flipping the 8th bit doesn't change anything since it gets removed, but we can use it to confuse people who don't know how it works).<br>
+                    Example: flip bits 7 2(the order doesn't matter) 0<span style="color: orange;">1</span>1001<span style="color:green;">1</span>0 0<span style="color: orange;">1</span>1101<span style="color:green;">0</span>1 --><span style="color:yellow;">0</span>1001<span style="color:green;">0</span>0 <span style="color:yellow;">0</span>1101<span style="color:green;">1</span>1<br>
+                    In order to make it possible to decrypt the software outputs 7~X_(7 because it shortens each byte and X stands for bits you specified to flip) in front of the string.<br>
+                    Example:<br>
+                    7~327_00010000101111010010101000111100111
                 </p>
                 <p>
                 <a href="//bonkaddict29.github.io/projects/ByteEncrypter/byte encrypter.exe" download>Download</a>
