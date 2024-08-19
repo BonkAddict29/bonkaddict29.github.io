@@ -48,7 +48,7 @@ a {
 #header {
 	background-color: #eee;
 	clear: both;
-	color: #555;
+	color: #a29ed3;
 	font-size: 1.78em;
 	padding: 0.7ex 0.7ex 0.7ex 0.7em;
 }
@@ -81,7 +81,7 @@ h4 {
 #headerSubtitle {
 	font-size: 0.75em;
 	font-style: italic;
-	margin-left: 6em;
+	margin-left: 5em;
 }
 
 #content {
