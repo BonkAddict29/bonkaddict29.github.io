@@ -25,6 +25,11 @@ a {
 #nav a:hover {
 	background-color: #ddd;
 }
+img {
+    max-width: 500px; /* or any other value */
+    width: 100%;
+    height: auto;
+}
 
 #menu {
 	clear: both;
