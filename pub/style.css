@@ -13,6 +13,7 @@ body {
 img {
     max-width: 220%;
     height: auto;
+	display: block;
 }
 
 pre, code {
