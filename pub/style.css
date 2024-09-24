@@ -102,6 +102,7 @@ h4 {
 	padding: 1em 0;
 	border-right: 1px dotted #ccc;
 	width: 200px;
+	background-color: #351e07;
 }
 
 #nav ul {
@@ -150,14 +151,14 @@ h4 {
 
 @media (prefers-color-scheme: dark) {
 	body {
-		background-color: #000;
-		color: #bdbdbd;
+		background-color: #241506;
+		color: #939393;
 	}
 	#menu {
 		border-top: 1px solid #222;
 	}
 	#header {
-		background-color: #00195e;
+		background-color: #462707;
 	}
 	#nav a:hover {
 		background-color: #222;
@@ -167,7 +168,7 @@ h4 {
 		border-color: #222;
 	}
 	a {
-		color: #4067ff;
+		color: #939393;
 	}
 	#main img[src$=svg] {
 		filter: invert(1);
