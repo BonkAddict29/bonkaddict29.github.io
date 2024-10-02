@@ -151,7 +151,7 @@ h4 {
 @media (prefers-color-scheme: dark) {
 	body {
 		background-color: #20002f;
-		color: #afe1ff;
+		color: #781bff;
 	}
 	#menu {
 		border-top: 1px solid #222;
@@ -167,7 +167,7 @@ h4 {
 		border-color: #222;
 	}
 	a {
-		color: #0900ff;
+		color: #00cfff;
 	}
 	#main img[src$=svg] {
 		filter: invert(1);
