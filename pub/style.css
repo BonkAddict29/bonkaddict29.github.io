@@ -52,6 +52,9 @@ a {
 }
 
 #header {
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-color: #939393;
 	background-color: #eee;
 	clear: both;
 	color: #b1b1b1;
@@ -91,12 +94,19 @@ h4 {
 }
 
 #content {
+	
 	clear: both;
 	margin: 0;
 	padding: 0;
 }
 
 #nav {
+	border-right-style: solid;
+	border-right-width: 3px;
+	border-right-color: #939393;
+	border-down-style: solid;
+	border-down-width: 3px;
+	border-down-color: #939393;
 	float: left;
 	margin: 0 1px 0 0;
 	padding: 1em 0;
