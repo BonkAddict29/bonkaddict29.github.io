@@ -58,7 +58,7 @@ a {
 	background-color: #eee;
 	clear: both;
 	color: #b1b1b1;
-	font-size: 1.78em;
+	font-size: 1.9em;
 	padding: 0.7ex 0.7ex 0.7ex 0.7em;
 }
 
@@ -104,14 +104,14 @@ h4 {
 	border-right-style: solid;
 	border-right-width: 3px;
 	border-right-color: #939393;
-	border-down-style: solid;
-	border-down-width: 3px;
-	border-down-color: #939393;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #939393;
 	float: left;
 	margin: 0 1px 0 0;
 	padding: 1em 0;
 	width: 200px;
-	background-color: #351e07;
+	background-color: #3c2004;
 }
 
 #nav ul {
@@ -167,7 +167,7 @@ h4 {
 		border-top: 1px solid #222;
 	}
 	#header {
-		background-color: #462707;
+		background-color: #5e3103;
 	}
 	#nav a:hover {
 		background-color: #222;
